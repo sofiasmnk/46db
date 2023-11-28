@@ -1,0 +1,24 @@
+{
+  "name": "46db",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "tina-dev": "npx tinacms dev -c 'astro dev'",
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^1.1.5",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.3",
+    "astro": "^3.6.1",
+    "tinacms": "^1.5.26"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.5.36",
+    "@types/node": "^20.10.0"
+  }
+}
